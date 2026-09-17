@@ -1,0 +1,23 @@
+%LOADING FILE
+
+%Load the full image
+full_image = imread("film1_big.jpg");
+
+%Crop the images 
+% (first middle)
+image1 = full_image(1:287, 386:764, :);
+% (second middle)
+
+% (third middle)
+
+% (fourth middle)
+
+
+
+% Display the cropped image
+figure;
+imshow(image1, []);
+title('Cropped Image');
+
+%SAVE THE IMAGES
+imwrite(img, 'image.jpg');
